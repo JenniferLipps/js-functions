@@ -23,3 +23,9 @@ const nuggetizer = (animal) => {
 
 console.log(nuggetizer("pig"));
 console.log(nuggetizer("tofu"));
+
+const dogBreed = (dogName) => {
+  return `My favorite dog is the ${dogName}.`;
+};
+
+console.log(dogBreed("Bernese Mountain Dog"));
