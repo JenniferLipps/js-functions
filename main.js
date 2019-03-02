@@ -50,3 +50,17 @@ printToDom('dog-breeds', dogBreed('German Shepard'));
 printToDom('nuggetizer', nuggetizer('bear'));
 printToDom('nuggetizer', nuggetizer('kitten'));
 printToDom('nuggetizer', 'mmmmm');
+
+
+let bandNumber = 1;
+const addBand = (bandName) => {
+  //get band
+  //text to send
+  const bandText = `<h5>${bandNumber}. ${bandName}</h5}`
+  //modify band number
+  bandNumber = bandNumber + 1;
+  printToDom('band-list', bandText)
+};
+
+addBand('Metallica');
+addBand('Led Zeppelin');
